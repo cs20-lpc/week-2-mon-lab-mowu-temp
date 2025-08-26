@@ -7,7 +7,7 @@ class Student {
     private: 
         string name;
         int age;
-
+        
     public:
         Student();
         ~Student();
@@ -15,6 +15,5 @@ class Student {
         void setAge(int i);
         string getName() const;
         int getAge() const;
-    
 };
 
