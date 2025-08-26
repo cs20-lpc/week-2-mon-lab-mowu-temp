@@ -1,8 +1,9 @@
 #include "Student.hpp"
-
+#include <iostream>
 /*******************************************************************************
  * Function prototypes
 *******************************************************************************/
+using namespace std;
 
 void getInput(Student[], const int);
 int modify(int);
